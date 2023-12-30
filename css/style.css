@@ -85,7 +85,7 @@ hr {
 #menu a.navbar-brand {
 	font-size: 26px;
 	font-weight: 600;
-	color: #eee;
+	color: #ffd000;
 }
 #menu.navbar-default .navbar-nav > li > a {
 	text-transform: uppercase;
@@ -106,7 +106,7 @@ hr {
 	padding: 15px 0 !important;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: #008080 !important;
+	color: #ffb700 !important;
 	background-color: transparent;
 }
 .navbar-toggle {
@@ -165,7 +165,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	background-size: cover;
 	-o-background-size: cover;
 }
-.intro .overlay {
+.intro .overlay1 {
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,70ad47+100&0.6+0,0.4+100 */
 	background: -moz-linear-gradient(top, rgba(0,0,0,0.6) 0%, rgba(112,173,71,0.4) 100%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(top, rgba(0,0,0,0.6) 0%, rgba(112,173,71,0.4) 100%); /* Chrome10-25,Safari5.1-6 */
@@ -175,10 +175,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99000000', e
 .intro .fa {
 	font-size: 94px;
 	margin-bottom: 40px;
-	color: #fff;
+	color: #00ffd0;
 }
 .intro h1 {
-	color: #ffffff;
+	color: #008080;
 	font-size: 64px;
 	font-weight: 700;
 	letter-spacing: -1px;
@@ -187,7 +187,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99000000', e
 	text-transform: uppercase;
 }
 .intro p {
-	color: #fff;
+	color: #008080;
 	font-size: 22px;
 	margin-top: 20px;
 	line-height: 28px;
@@ -384,7 +384,7 @@ ol.type li a:hover {
 }
 #testimonials .overlay {
 	padding: 120px 0;
-	background: rgba(106, 175, 8, 0.85);
+	background: rgba(106, 175, 8,0.5);
 }
 #testimonials h2 {
 	color: #fff;
