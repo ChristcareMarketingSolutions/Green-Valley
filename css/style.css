@@ -31,7 +31,7 @@ p.intro {
 	line-height: 24px;
 }
 a {
-	color: #008080;
+	color: #ffae00;
 	font-weight: 400;
 }
 a:hover, a:focus {
@@ -165,11 +165,11 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	background-size: cover;
 	-o-background-size: cover;
 }
-.intro .overlay1 {
+.intro .overlay {
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,70ad47+100&0.6+0,0.4+100 */
-	background: -moz-linear-gradient(top, rgba(0,0,0,0.6) 0%, rgba(112,173,71,0.4) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, rgba(0,0,0,0.6) 0%, rgba(112,173,71,0.4) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%, rgba(112,173,71,0.4) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background: -moz-linear-gradient(top, rgba(0,0,0,0.6) 0%, rgba(244, 255, 237, 0.1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0.6) 0%, rgba(244, 255, 237, 0.1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%, rgba(244, 255, 237, 0.1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99000000', endColorstr='#6670ad47', GradientType=0 ); /* IE6-9 */
 }
 .intro .fa {
@@ -178,7 +178,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99000000', e
 	color: #00ffd0;
 }
 .intro h1 {
-	color: #008080;
+	color: #ff002b;
 	font-size: 64px;
 	font-weight: 700;
 	letter-spacing: -1px;
@@ -186,8 +186,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99000000', e
 	margin-bottom: 10px;
 	text-transform: uppercase;
 }
+.intro h2 {
+	color: #ff00ae;
+	font-size: 25px;
+    outline: 10px;;
+	font-weight: 700;
+	letter-spacing: -1px;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
 .intro p {
-	color: #008080;
+	color: #ff002b;
 	font-size: 22px;
 	margin-top: 20px;
 	line-height: 28px;
